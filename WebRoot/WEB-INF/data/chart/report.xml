@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<reports>
+	<report>
+		<name>DailyReport</name><!-- 查询游戏的每日总报表数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						<#assign DAOFactory = statics["reportdao.DAOFactory"]>
+						<#assign JSONArray = statics["net.sf.json.JSONArray"]>
+						<#assign ReportHelper = statics["com.kola.core.util.report.ReportHelper"]>
+						<#if ReportHelper.getIsParamsChange("DailyReport",params)>
+							<#assign DailyReport = DAOFactory.getInstance().getDailyReportDAO().getDailyReport(params)>
+							<#if DailyReport!=null>
+								<#assign list=DailyReport.getGetDailyReportDataList()>
+								<#assign getTotalData=DailyReport.getGetTotalData()>
+							    ${ReportHelper.setObject("DailyReport",list,getTotalData,params)}
+						    </#if>
+						<#else>
+							<#assign list=ReportHelper.getObject("DailyReport")>
+							<#assign getTotalData=ReportHelper.getObject("DailyReport_total")>
+						</#if>
+						${ReportHelper.getPageResult(list,getTotalData,params)}
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+	
+	<report>
+		<name>GamePointConsumeReport</name><!-- 元宝功能消耗报表数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						<#assign DAOFactory = statics["reportdao.DAOFactory"]>
+						<#assign JSONArray = statics["net.sf.json.JSONArray"]>
+						<#assign ReportHelper = statics["com.kola.core.util.report.ReportHelper"]>
+						<#if ReportHelper.getIsParamsChange("GamePointConsumeReport",params)>
+						    <#assign GamePointConsumeReport = DAOFactory.getInstance().getGamePointConsumeReportDAO().getGamePointConsumeReport(params)>
+							<#if GamePointConsumeReport!=null>
+								<#assign list=GamePointConsumeReport.getGetGamePointConsumeReportList()>
+								<#assign getTotalData=GamePointConsumeReport.getTotalData()>
+							    ${ReportHelper.setObject("GamePointConsumeReport",list,getTotalData,params)}
+						    </#if>
+						<#else>
+							<#assign list=ReportHelper.getObject("GamePointConsumeReport")>
+							<#assign getTotalData=ReportHelper.getObject("GamePointConsumeReport_total")>
+						</#if>
+						${ReportHelper.getPageResult(list,getTotalData,params)}
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+	
+	<report>
+		<name>ShopSalesReport</name><!-- 商城道具销售统计报表数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						<#assign DAOFactory = statics["reportdao.DAOFactory"]>
+						<#assign JSONArray = statics["net.sf.json.JSONArray"]>
+						<#assign ReportHelper = statics["com.kola.core.util.report.ReportHelper"]>
+						<#if ReportHelper.getIsParamsChange("ShopSalesReport",params)>
+						    <#assign ShopSalesReport = DAOFactory.getInstance().getShopSalesReportDAO().getShopSalesReport(params)>
+							<#if ShopSalesReport!=null>
+								<#assign list=ShopSalesReport.getGetShopSalesReportDataList()>
+								<#assign getTotalData=ShopSalesReport.getTotalData()>
+							    ${ReportHelper.setObject("ShopSalesReport",list,getTotalData,params)}
+						    </#if>
+						<#else>
+							<#assign list=ReportHelper.getObject("ShopSalesReport")>
+							<#assign getTotalData=ReportHelper.getObject("ShopSalesReport_total")>
+						</#if>
+						${ReportHelper.getPageResult(list,getTotalData,params)}
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+	
+	<report>
+		<name>GamePointStockReport</name><!-- 元宝库存报表数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						<#assign DAOFactory = statics["reportdao.DAOFactory"]>
+						<#assign JSONArray = statics["net.sf.json.JSONArray"]>
+						<#assign ReportHelper = statics["com.kola.core.util.report.ReportHelper"]>
+						<#if ReportHelper.getIsParamsChange("GamePointStockReport",params)>
+						    <#assign GamePointStockReport = DAOFactory.getInstance().getGamePointStockReportDAO().getGamePointStockReport(params)>
+							<#if GamePointStockReport!=null>
+								<#assign list=GamePointStockReport.getGamePointStockReportDataList()>
+								<#assign getTotalData=GamePointStockReport.getTotalData()>
+							    ${ReportHelper.setObject("GamePointStockReport",list,getTotalData,params)}
+						    </#if>
+						<#else>
+							<#assign list=ReportHelper.getObject("GamePointStockReport")>
+							<#assign getTotalData=ReportHelper.getObject("GamePointStockReport_total")>
+						</#if>
+						${ReportHelper.getPageResult(list,getTotalData,params)}
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+	
+	<report>
+		<name>GameCopperStockReport</name><!-- 铜钱库存统计报表数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						<#assign DAOFactory = statics["reportdao.DAOFactory"]>
+						<#assign JSONArray = statics["net.sf.json.JSONArray"]>
+						<#assign ReportHelper = statics["com.kola.core.util.report.ReportHelper"]>
+						<#if ReportHelper.getIsParamsChange("GameCopperStockReport",params)>
+						    <#assign GameCopperStockReport = DAOFactory.getInstance().getGameCopperStockReportDAO().getGameCopperStockReport(params)>
+							<#if GameCopperStockReport!=null>
+								<#assign list=GameCopperStockReport.getGameCopperStockReportList()>
+								<#assign getTotalData=GameCopperStockReport.getTotalData()>
+							    ${ReportHelper.setObject("GameCopperStockReport",list,getTotalData,params)}
+						    </#if>
+						<#else>
+							<#assign list=ReportHelper.getObject("GameCopperStockReport")>
+							<#assign getTotalData=ReportHelper.getObject("GameCopperStockReport_total")>
+						</#if>
+						${ReportHelper.getPageResult(list,getTotalData,params)}
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+	
+	<report>
+		<name>RoleLevelReport</name><!-- 角色等级统计报表数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						<#assign DAOFactory = statics["reportdao.DAOFactory"]>
+						<#assign JSONArray = statics["net.sf.json.JSONArray"]>
+						<#assign ReportHelper = statics["com.kola.core.util.report.ReportHelper"]>
+						<#if ReportHelper.getIsParamsChange("RoleLevelReport",params)>
+						    <#assign RoleLevelReport = DAOFactory.getInstance().getRoleLevelReportDAO().getRoleLevelReport(params)>
+							<#if RoleLevelReport!=null>
+								<#assign list=RoleLevelReport.getGetRoleLevelReportDataList()>
+								<#assign getTotalData=RoleLevelReport.getTotalData()>
+							    ${ReportHelper.setObject("RoleLevelReport",list,getTotalData,params)}
+						    </#if>
+						<#else>
+							<#assign list=ReportHelper.getObject("RoleLevelReport")>
+							<#assign getTotalData=ReportHelper.getObject("RoleLevelReport_total")>
+						</#if>
+						${ReportHelper.getPageResult(list,getTotalData,params)}
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+	<report>
+		<name>RoleOccupationReport</name><!-- 角色职业统计报表数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						<#assign DAOFactory = statics["reportdao.DAOFactory"]>
+						<#assign JSONArray = statics["net.sf.json.JSONArray"]>
+						<#assign ReportHelper = statics["com.kola.core.util.report.ReportHelper"]>
+						<#if ReportHelper.getIsParamsChange("RoleOccupationReport",params)>
+						    <#assign RoleOccupationReport = DAOFactory.getInstance().getRoleOccupationReportDAO().getRoleOccupationReport(params)>
+							<#if RoleOccupationReport!=null>
+								<#assign list=RoleOccupationReport.getRoleOccupationDataList()>
+								<#assign getTotalData=RoleOccupationReport.getTotalData()>
+							    ${ReportHelper.setObject("RoleOccupationReport",list,getTotalData,params)}
+						    </#if>
+						<#else>
+							<#assign list=ReportHelper.getObject("RoleOccupationReport")>
+							<#assign getTotalData=ReportHelper.getObject("RoleOccupationReport_total")>
+						</#if>
+						${ReportHelper.getPageResult(list,getTotalData,params)}
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+	
+	<report>
+		<name>UserKeepOnlineReport</name><!-- 玩家留存率统计报表数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						<#assign DAOFactory = statics["reportdao.DAOFactory"]>
+						<#assign JSONArray = statics["net.sf.json.JSONArray"]>
+						<#assign ReportHelper = statics["com.kola.core.util.report.ReportHelper"]>
+						<#if ReportHelper.getIsParamsChange("UserKeepOnlineReport",params)>
+						    <#assign UserKeepOnlineReport = DAOFactory.getInstance().getUserKeepOnlineReportDAO().getUserKeepOnlineReport(params)>
+							<#if UserKeepOnlineReport!=null>
+								<#assign list=UserKeepOnlineReport.getGetUserKeepOnlineReportDataList()>
+								<#assign getTotalData=UserKeepOnlineReport.getTotalData()>
+							    ${ReportHelper.setObject("UserKeepOnlineReport",list,getTotalData,params)}
+						    </#if>
+						<#else>
+							<#assign list=ReportHelper.getObject("UserKeepOnlineReport")>
+							<#assign getTotalData=ReportHelper.getObject("UserKeepOnlineReport_total")>
+						</#if>
+						${ReportHelper.getPageResult(list,getTotalData,params)}
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+  </report>
+  
+  <report>
+		<name>VIPReport</name><!-- VIP统计报表数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						<#assign DAOFactory = statics["reportdao.DAOFactory"]>
+						<#assign JSONArray = statics["net.sf.json.JSONArray"]>
+						<#assign ReportHelper = statics["com.kola.core.util.report.ReportHelper"]>
+						<#if ReportHelper.getIsParamsChange("VIPReport",params)>
+						    <#assign VIPReport = DAOFactory.getInstance().getVIPReportDAO().getVIPReport(params)>
+							<#if VIPReport!=null>
+								<#assign list=VIPReport.getGetVIPReportDataList()>
+								<#assign getTotalData=VIPReport.getTotalData()>
+							    ${ReportHelper.setObject("VIPReport",list,getTotalData,params)}
+						    </#if>
+						<#else>
+							<#assign list=ReportHelper.getObject("VIPReport")>
+							<#assign getTotalData=ReportHelper.getObject("VIPReport_total")>
+						</#if>
+						${ReportHelper.getPageResult(list,getTotalData,params)}
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+  </report>
+  
+  <report>
+		<name>RoleLossReport</name><!-- 角色流失明细统计报表数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						<#assign DAOFactory = statics["reportdao.DAOFactory"]>
+						<#assign JSONArray = statics["net.sf.json.JSONArray"]>
+						<#assign ReportHelper = statics["com.kola.core.util.report.ReportHelper"]>
+						<#if ReportHelper.getIsParamsChange("RoleLossReport",params)>
+						    <#assign RoleLossReport = DAOFactory.getInstance().getRoleLossReportDAO().getRoleLossReport(params)>
+							<#if RoleLossReport!=null>
+								<#assign list=RoleLossReport.getRoleLossReportList()>
+								<#assign getTotalData=RoleLossReport.getTotalData()>
+							    ${ReportHelper.setObject("RoleLossReport",list,getTotalData,params)}
+						    </#if>
+						<#else>
+							<#assign list=ReportHelper.getObject("RoleLossReport")>
+							<#assign getTotalData=ReportHelper.getObject("RoleLossReport_total")>
+						</#if>
+						${ReportHelper.getPageResult(list,getTotalData,params)}
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+  </report>
+  
+  <report>
+		<name>FirstChargeReport</name><!-- 首充用户等级分布报表数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						<#assign DAOFactory = statics["reportdao.DAOFactory"]>
+						<#assign JSONArray = statics["net.sf.json.JSONArray"]>
+						<#assign ReportHelper = statics["com.kola.core.util.report.ReportHelper"]>
+						<#if ReportHelper.getIsParamsChange("FirstChargeReport",params)>
+						    <#assign FirstChargeReport = DAOFactory.getInstance().getFirstChargeReportDAO().getFirstChargeReport(params)>
+							<#if FirstChargeReport!=null>
+								<#assign list=FirstChargeReport.getFirstChargeUserInfoList()>
+								<#assign getTotalData=FirstChargeReport.getTotalData()>
+							    ${ReportHelper.setObject("FirstChargeReport",list,getTotalData,params)}
+						    </#if>
+						<#else>
+							<#assign list=ReportHelper.getObject("FirstChargeReport")>
+							<#assign getTotalData=ReportHelper.getObject("FirstChargeReport_total")>
+						</#if>
+						${ReportHelper.getPageResult(list,getTotalData,params)}
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+	<report>
+		<name>FirstFunConsumeReport</name><!-- 首充用户等级分布报表数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						<#assign DAOFactory = statics["reportdao.DAOFactory"]>
+						<#assign JSONArray = statics["net.sf.json.JSONArray"]>
+						<#assign ReportHelper = statics["com.kola.core.util.report.ReportHelper"]>
+						<#if ReportHelper.getIsParamsChange("FirstFunConsumeReport",params)>
+						    <#assign FirstFunConsumeReport = DAOFactory.getInstance().getFirstFunConsumeReportDAO().getFirstFunConsumeReport(params)>
+							<#if FirstFunConsumeReport!=null>
+								<#assign list=FirstFunConsumeReport.getFirstFunConsumeReportDataList()>
+								<#assign getTotalData=FirstFunConsumeReport.getTotalData()>
+							    ${ReportHelper.setObject("FirstFunConsumeReport",list,getTotalData,params)}
+						    </#if>
+						<#else>
+							<#assign list=ReportHelper.getObject("FirstFunConsumeReport")>
+							<#assign getTotalData=ReportHelper.getObject("FirstFunConsumeReport_total")>
+						</#if>
+						${ReportHelper.getPageResult(list,getTotalData,params)}
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+	<report>
+		<name>ChargeRankReport</name><!-- 首充用户等级分布报表数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						<#assign DAOFactory = statics["reportdao.DAOFactory"]>
+						<#assign JSONArray = statics["net.sf.json.JSONArray"]>
+						<#assign ReportHelper = statics["com.kola.core.util.report.ReportHelper"]>
+						<#if ReportHelper.getIsParamsChange("ChargeRankReport",params)>
+						    <#assign ChargeRankReport = DAOFactory.getInstance().getChargeRankReportDAO().getChargeRankReport(params)>
+							<#if ChargeRankReport!=null>
+								<#assign list=ChargeRankReport.getChargeRankReportDataList()>
+								<#assign getTotalData=ChargeRankReport.getTotalData()>
+							    ${ReportHelper.setObject("ChargeRankReport",list,getTotalData,params)}
+						    </#if>
+						<#else>
+							<#assign list=ReportHelper.getObject("ChargeRankReport")>
+							<#assign getTotalData=ReportHelper.getObject("ChargeRankReport_total")>
+						</#if>
+						${ReportHelper.getPageResult(list,getTotalData,params)}
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+	<report>
+		<name>GamePointConsumeRankReport</name><!-- 钻石消耗排行报表数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						<#assign DAOFactory = statics["reportdao.DAOFactory"]>
+						<#assign JSONArray = statics["net.sf.json.JSONArray"]>
+						<#assign ReportHelper = statics["com.kola.core.util.report.ReportHelper"]>
+						<#if ReportHelper.getIsParamsChange("GamePointConsumeRankReport",params)>
+						    <#assign GamePointConsumeRankReport = DAOFactory.getInstance().getGamePointConsumeRankReportDAO().getGamePointConsumeRankReport(params)>
+							<#if GamePointConsumeRankReport!=null>
+								<#assign list=GamePointConsumeRankReport.getGamePointConsumeRankReportList()>
+								<#assign getTotalData=GamePointConsumeRankReport.getTotalData()>
+							    ${ReportHelper.setObject("GamePointConsumeRankReport",list,getTotalData,params)}
+						    </#if>
+						<#else>
+							<#assign list=ReportHelper.getObject("GamePointConsumeRankReport")>
+							<#assign getTotalData=ReportHelper.getObject("GamePointConsumeRankReport_total")>
+						</#if>
+						${ReportHelper.getPageResult(list,getTotalData,params)}
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+	<report>
+		<name>GamePointStockRankReport</name><!-- 钻石库存排行报表数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						<#assign DAOFactory = statics["reportdao.DAOFactory"]>
+						<#assign JSONArray = statics["net.sf.json.JSONArray"]>
+						<#assign ReportHelper = statics["com.kola.core.util.report.ReportHelper"]>
+						<#if ReportHelper.getIsParamsChange("GamePointStockRankReport",params)>
+						    <#assign GamePointStockRankReport = DAOFactory.getInstance().getGamePointStockRankReportDAO().getGamePointStockRankReport(params)>
+							<#if GamePointStockRankReport!=null>
+								<#assign list=GamePointStockRankReport.getGamePointStockRankReportList()>
+								<#assign getTotalData=GamePointStockRankReport.getTotalData()>
+							    ${ReportHelper.setObject("GamePointStockRankReport",list,getTotalData,params)}
+						    </#if>
+						<#else>
+							<#assign list=ReportHelper.getObject("GamePointStockRankReport")>
+							<#assign getTotalData=ReportHelper.getObject("GamePointStockRankReport_total")>
+						</#if>
+						${ReportHelper.getPageResult(list,getTotalData,params)}
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+	<report>
+		<name>WorldBossReport</name><!-- 元宝库存报表数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						<#assign DAOFactory = statics["reportdao.DAOFactory"]>
+						<#assign JSONArray = statics["net.sf.json.JSONArray"]>
+						<#assign ReportHelper = statics["com.kola.core.util.report.ReportHelper"]>
+						<#if ReportHelper.getIsParamsChange("WorldBossReport",params)>
+						    <#assign WorldBossReport = DAOFactory.getInstance().getWorldBossReportDAO().getWorldBossReport(params)>
+							<#if WorldBossReport!=null>
+								<#assign list=WorldBossReport.getWorldBossReportDataList()>
+								<#assign getTotalData=WorldBossReport.getTotalData()>
+							    ${ReportHelper.setObject("WorldBossReport",list,getTotalData,params)}
+						    </#if>
+						<#else>
+							<#assign list=ReportHelper.getObject("WorldBossReport")>
+							<#assign getTotalData=ReportHelper.getObject("WorldBossReport_total")>
+						</#if>
+						${ReportHelper.getPageResult(list,getTotalData,params)}
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+	<report>
+		<name>FamilyWarReport</name><!-- 元宝库存报表数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						<#assign DAOFactory = statics["reportdao.DAOFactory"]>
+						<#assign JSONArray = statics["net.sf.json.JSONArray"]>
+						<#assign ReportHelper = statics["com.kola.core.util.report.ReportHelper"]>
+						<#if ReportHelper.getIsParamsChange("FamilyWarReport",params)>
+						    <#assign FamilyWarReport = DAOFactory.getInstance().getFamilyWarReportDAO().getFamilyWarReport(params)>
+							<#if FamilyWarReport!=null>
+								<#assign list=FamilyWarReport.getFamilyWarReportDataList()>
+								<#assign getTotalData=FamilyWarReport.getTotalData()>
+							    ${ReportHelper.setObject("FamilyWarReport",list,getTotalData,params)}
+						    </#if>
+						<#else>
+							<#assign list=ReportHelper.getObject("FamilyWarReport")>
+							<#assign getTotalData=ReportHelper.getObject("FamilyWarReport_total")>
+						</#if>
+						${ReportHelper.getPageResult(list,getTotalData,params)}
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+	<report>
+		<name>GameLevelLossReport</name><!-- 关卡流失统计报表数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						<#assign DAOFactory = statics["reportdao.DAOFactory"]>
+						<#assign JSONArray = statics["net.sf.json.JSONArray"]>
+						<#assign ReportHelper = statics["com.kola.core.util.report.ReportHelper"]>
+						<#if ReportHelper.getIsParamsChange("GameLevelLossReport",params)>
+						    <#assign GameLevelLossReport = DAOFactory.getInstance().getGameLevelLossReportDAO().getGameLevelLossReport(params)>
+							<#if GameLevelLossReport!=null>
+								<#assign list=GameLevelLossReport.getGameLevelLossReportDataList()>
+								<#assign getTotalData=GameLevelLossReport.getTotalData()>
+							    ${ReportHelper.setObject("GameLevelLossReport",list,getTotalData,params)}
+						    </#if>
+						<#else>
+							<#assign list=ReportHelper.getObject("GameLevelLossReport")>
+							<#assign getTotalData=ReportHelper.getObject("GameLevelLossReport_total")>
+						</#if>
+						${ReportHelper.getPageResult(list,getTotalData,params)}
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+	<report>
+		<name>NewGuideReport</name><!-- 新手引导流失统计报表数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						<#assign DAOFactory = statics["reportdao.DAOFactory"]>
+						<#assign JSONArray = statics["net.sf.json.JSONArray"]>
+						<#assign ReportHelper = statics["com.kola.core.util.report.ReportHelper"]>
+						<#if ReportHelper.getIsParamsChange("NewGuideReport",params)>
+						    <#assign NewGuideReport = DAOFactory.getInstance().getNewGuideReportDAO().getNewGuideReport(params)>
+							<#if NewGuideReport!=null>
+								<#assign list=NewGuideReport.getNewGuideReportDataList()>
+								<#assign getTotalData=NewGuideReport.getTotalData()>
+							    ${ReportHelper.setObject("NewGuideReport",list,getTotalData,params)}
+						    </#if>
+						<#else>
+							<#assign list=ReportHelper.getObject("NewGuideReport")>
+							<#assign getTotalData=ReportHelper.getObject("NewGuideReport_total")>
+						</#if>
+						${ReportHelper.getPageResult(list,getTotalData,params)}
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+	<report>
+		<name>LoginInfoReport</name><!-- 登录次数统计报表数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						<#assign DAOFactory = statics["reportdao.DAOFactory"]>
+						<#assign JSONArray = statics["net.sf.json.JSONArray"]>
+						<#assign ReportHelper = statics["com.kola.core.util.report.ReportHelper"]>
+						<#if ReportHelper.getIsParamsChange("LoginInfoReport",params)>
+						    <#assign LoginInfoReport = DAOFactory.getInstance().getLoginInfoReportDAO().getLoginInfoReport(params)>
+							<#if LoginInfoReport!=null>
+								<#assign list=LoginInfoReport.getLoginInfoReportDataList()>
+								<#assign getTotalData=LoginInfoReport.getTotalData()>
+							    ${ReportHelper.setObject("LoginInfoReport",list,getTotalData,params)}
+						    </#if>
+						<#else>
+							<#assign list=ReportHelper.getObject("LoginInfoReport")>
+							<#assign getTotalData=ReportHelper.getObject("LoginInfoReport_total")>
+						</#if>
+						${ReportHelper.getPageResult(list,getTotalData,params)}
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+	<report>
+		<name>YYReport</name><!-- 渠道报表  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						<#assign DAOFactory = statics["reportdao.DAOFactory"]>
+						<#assign JSONArray = statics["net.sf.json.JSONArray"]>
+						<#assign ReportHelper = statics["com.kola.core.util.report.ReportHelper"]>
+						<#if ReportHelper.getIsParamsChange("YYReport",params)>
+						    <#assign YYReport = DAOFactory.getInstance().getYYReportDAO().getYYReport(params)>
+							<#if YYReport!=null>
+								<#assign list=YYReport.getYYReportDataList()>
+								<#assign getTotalData=YYReport.getTotalData()>
+							    ${ReportHelper.setObject("YYReport",list,getTotalData,params)}
+						    </#if>
+						<#else>
+							<#assign list=ReportHelper.getObject("YYReport")>
+							<#assign getTotalData=ReportHelper.getObject("YYReport_total")>
+						</#if>
+						${ReportHelper.getPageResult(list,getTotalData,params)}
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+  
+  <report>
+		<name>OnlineReport</name><!-- 实时在线统计报表数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						<#assign DAOFactory = statics["reportdao.DAOFactory"]>
+						<#assign JSONArray = statics["net.sf.json.JSONArray"]>
+						<#assign ReportHelper = statics["com.kola.core.util.report.ReportHelper"]>
+						<#if ReportHelper.getIsParamsChange("DailyReport",params)>
+							<#assign DailyReport = DAOFactory.getInstance().getDailyReportDAO().getDailyReport(params)>
+							<#if DailyReport!=null>
+								<#assign list=DailyReport.getGetDailyReportDataList()>
+								<#assign getTotalData=DailyReport.getGetTotalData()>
+							    ${ReportHelper.setObject("DailyReport",list,getTotalData,params)}
+						    </#if>
+						<#else>
+							<#assign list=ReportHelper.getObject("DailyReport")>
+							<#assign getTotalData=ReportHelper.getObject("DailyReport_total")>
+						</#if>
+						<chart palette='2' labelDisplay='WRAP' formatNumberScale='0' bgColor="FFFFFF" subcaption='<#if month??>${month}</#if>' caption="月收入趋势" showValues='1' showLabels='1' decimals='0' useRoundEdges='0' legendBorderAlpha='0' canvasBorderThickness='1' numberPrefix="$" showBorder='0' lineColor="FCB541">
+							<#if list!=null>
+								<#list list as list>
+								 	 <set label='${list.reportDate}' value='${list.downloadCount}' />
+								 </#list>
+							<#else>
+							   <set label='没有数据' value='' />
+							</#if>
+							<styles>
+						     <definition>
+						      <style name='captionFont' type='font' size='14' color='000000' bold='1' />
+						        <style name='msubCaptionFont' type='font' size='12' color='000000' bold='1' />
+						        <style name='myDataLabes' type='font' size='12' color='000000' />
+						     </definition>
+						     <application>
+						        <apply toObject="caption" styles="captionFont" />
+						        <apply toObject="TOOLTIP" styles="msubCaptionFont" />
+						        <apply toObject="YAXISNAME" styles="myDataLabes" />
+						        <apply toObject="Legend" styles="myDataLabes" />
+						        <apply toObject='DataLabels' styles='myDataLabes' />
+						     </application>
+						   </styles>
+						</chart> 
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+		</report>
+
+</reports>
+ 

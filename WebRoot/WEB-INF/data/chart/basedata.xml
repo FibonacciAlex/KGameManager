@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<reports>
+	<report>
+		<name>basedata_platform</name><!-- 平台基础数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						[{id:'-1',text:'全部'},{id:'1000',text:'官方渠道'},{id:'0',text:'官方渠道1'}]
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+	<report>
+		<name>basedata_platform1</name><!-- 平台基础数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						[{id:'-1',text:'全部'}]
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+	<report>
+		<name>basedata_state</name><!-- 状态基础数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						[{id:'-1',text:'全部'},{id:'1',text:'已运营'}]
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+	<report>
+		<name>basedata_games</name><!-- 状态基础数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						[{id:'-1',text:'全部'},{id:'1',text:'超凡特工'}]
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+	
+	<report>
+		<name>basedata_server1</name><!-- 区服基础数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						[{id:'1',text:'封测测试服[1区]'}]
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+	<report>
+		<name>basedata_server</name><!-- 区服基础数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						[{id:'-1',text:'全部'},{id:'1',text:'封测测试服[1区]'}]
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	 
+	<report>
+		<name>basedata_userType</name><!-- 用户类型基础数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						[{id:'-1',text:'全部'},{id:'1',text:'用户类型1'}]
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+	<report>
+		<name>basedata_channel</name><!-- 渠道基础数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+						[{id:'-1',text:'全部'},{id:'1000',text:'官方渠道'},{id:'0',text:'官方渠道1'}]
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+	<report>
+		<name>basedata_subChannel</name><!-- 渠道基础数据  -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+                        <#if params.parentId=="1000">
+						[{id:'-1',text:'全部'},{id:'1000',text:'官方渠道'}]
+						<#elseif params.parentId=="0">
+						[{id:'-1',text:'全部'},{id:'0',text:'官方渠道1'}]
+						<#else>
+						[{id:'-1',text:'全部'}]
+						</#if>
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+</reports>
+ 

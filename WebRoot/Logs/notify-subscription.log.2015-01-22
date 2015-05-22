@@ -1,0 +1,356 @@
+[15:56:30:648][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loading action configurations from: struts-default.xml
+[15:56:30:654][DEBUG](com.opensymphony.xwork2.util.FileManager:57) - Creating revision for URL: jar:file:/D:/Project/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/kmp_kola/WEB-INF/lib/struts2-core-2.1.8.1.jar!/struts-default.xml
+[15:56:30:694][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded action configuration from: struts-default.xml
+[15:56:30:701][INFO](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:31) - Parsing configuration file [struts-default.xml]
+[15:56:30:708][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type: name:xwork impl:com.opensymphony.xwork2.ObjectFactory
+[15:56:30:712][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.ObjectFactory name:struts impl:org.apache.struts2.impl.StrutsObjectFactory
+[15:56:30:714][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.ActionProxyFactory name:xwork impl:com.opensymphony.xwork2.DefaultActionProxyFactory
+[15:56:30:715][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.ActionProxyFactory name:struts impl:org.apache.struts2.impl.StrutsActionProxyFactory
+[15:56:30:721][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.conversion.ObjectTypeDeterminer name:tiger impl:com.opensymphony.xwork2.conversion.impl.DefaultObjectTypeDeterminer
+[15:56:30:722][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.conversion.ObjectTypeDeterminer name:notiger impl:com.opensymphony.xwork2.conversion.impl.DefaultObjectTypeDeterminer
+[15:56:30:722][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.conversion.ObjectTypeDeterminer name:struts impl:com.opensymphony.xwork2.conversion.impl.DefaultObjectTypeDeterminer
+[15:56:30:724][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.util.PatternMatcher name:struts impl:com.opensymphony.xwork2.util.WildcardHelper
+[15:56:30:725][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.util.PatternMatcher name:namedVariable impl:com.opensymphony.xwork2.util.NamedVariablePatternMatcher
+[15:56:30:729][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.dispatcher.mapper.ActionMapper name:struts impl:org.apache.struts2.dispatcher.mapper.DefaultActionMapper
+[15:56:30:730][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.dispatcher.mapper.ActionMapper name:composite impl:org.apache.struts2.dispatcher.mapper.CompositeActionMapper
+[15:56:30:731][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.dispatcher.mapper.ActionMapper name:restful impl:org.apache.struts2.dispatcher.mapper.RestfulActionMapper
+[15:56:30:732][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.dispatcher.mapper.ActionMapper name:restful2 impl:org.apache.struts2.dispatcher.mapper.Restful2ActionMapper
+[15:56:30:738][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.dispatcher.multipart.MultiPartRequest name:struts impl:org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest
+[15:56:30:739][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.dispatcher.multipart.MultiPartRequest name:jakarta impl:org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest
+[15:56:30:740][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.views.TagLibrary name:s impl:org.apache.struts2.views.DefaultTagLibrary
+[15:56:30:747][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type: name:struts impl:org.apache.struts2.views.freemarker.FreemarkerManager
+[15:56:30:749][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Unable to load optional class: java.lang.NoClassDefFoundError: org/apache/velocity/tools/view/ToolboxManager
+[15:56:30:750][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type: name:default impl:org.apache.struts2.components.template.TemplateEngineManager
+[15:56:30:755][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.components.template.TemplateEngine name:ftl impl:org.apache.struts2.components.template.FreemarkerTemplateEngine
+[15:56:30:756][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.components.template.TemplateEngine name:vm impl:org.apache.struts2.components.template.VelocityTemplateEngine
+[15:56:30:758][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.components.template.TemplateEngine name:jsp impl:org.apache.struts2.components.template.JspTemplateEngine
+[15:56:30:761][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.conversion.impl.XWorkConverter name:struts impl:com.opensymphony.xwork2.conversion.impl.XWorkConverter
+[15:56:30:761][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.conversion.impl.XWorkConverter name:xwork1 impl:com.opensymphony.xwork2.conversion.impl.XWorkConverter
+[15:56:30:765][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type: name:default impl:com.opensymphony.xwork2.conversion.impl.XWorkBasicConverter
+[15:56:30:768][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.TextProvider name:xwork1 impl:com.opensymphony.xwork2.TextProviderSupport
+[15:56:30:768][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.TextProvider name:struts impl:com.opensymphony.xwork2.TextProviderSupport
+[15:56:30:771][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.components.UrlRenderer name:struts impl:org.apache.struts2.components.ServletUrlRenderer
+[15:56:30:774][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.util.ValueStackFactory name:struts impl:com.opensymphony.xwork2.ognl.OgnlValueStackFactory
+[15:56:30:776][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.util.reflection.ReflectionProvider name:struts impl:com.opensymphony.xwork2.ognl.OgnlReflectionProvider
+[15:56:30:778][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.util.reflection.ReflectionContextFactory name:struts impl:com.opensymphony.xwork2.ognl.OgnlReflectionContextFactory
+[15:56:30:780][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.TextProvider name:system impl:com.opensymphony.xwork2.DefaultTextProvider
+[15:56:30:782][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.conversion.NullHandler name:java.lang.Object impl:com.opensymphony.xwork2.conversion.impl.InstantiatingNullHandler
+[15:56:30:785][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.validator.ActionValidatorManager name:struts impl:com.opensymphony.xwork2.validator.AnnotationActionValidatorManager
+[15:56:30:787][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.validator.ActionValidatorManager name:no-annotations impl:com.opensymphony.xwork2.validator.DefaultActionValidatorManager
+[15:56:30:790][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.validator.ValidatorFactory name:default impl:com.opensymphony.xwork2.validator.DefaultValidatorFactory
+[15:56:30:792][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.validator.ValidatorFileParser name:default impl:com.opensymphony.xwork2.validator.DefaultValidatorFileParser
+[15:56:30:794][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type: name:default impl:com.opensymphony.xwork2.ognl.OgnlUtil
+[15:56:30:798][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:com.opensymphony.xwork2.util.CompoundRoot impl:com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor
+[15:56:30:801][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.lang.Object impl:com.opensymphony.xwork2.ognl.accessor.ObjectAccessor
+[15:56:30:803][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.Iterator impl:com.opensymphony.xwork2.ognl.accessor.XWorkIteratorPropertyAccessor
+[15:56:30:804][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.Enumeration impl:com.opensymphony.xwork2.ognl.accessor.XWorkEnumerationAccessor
+[15:56:30:807][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.List impl:com.opensymphony.xwork2.ognl.accessor.XWorkListPropertyAccessor
+[15:56:30:810][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.Set impl:com.opensymphony.xwork2.ognl.accessor.XWorkCollectionPropertyAccessor
+[15:56:30:812][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.Map impl:com.opensymphony.xwork2.ognl.accessor.XWorkMapPropertyAccessor
+[15:56:30:813][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.Collection impl:com.opensymphony.xwork2.ognl.accessor.XWorkCollectionPropertyAccessor
+[15:56:30:814][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:com.opensymphony.xwork2.ognl.ObjectProxy impl:com.opensymphony.xwork2.ognl.accessor.ObjectProxyPropertyAccessor
+[15:56:30:815][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.MethodAccessor name:java.lang.Object impl:com.opensymphony.xwork2.ognl.accessor.XWorkMethodAccessor
+[15:56:30:815][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.MethodAccessor name:com.opensymphony.xwork2.util.CompoundRoot impl:com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor
+[15:56:30:816][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type: name:default impl:org.apache.struts2.views.jsp.ui.OgnlTool
+[15:56:30:819][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.dispatcher.StaticContentLoader name:struts impl:org.apache.struts2.dispatcher.DefaultStaticContentLoader
+[15:56:30:821][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.UnknownHandlerManager name:struts impl:com.opensymphony.xwork2.DefaultUnknownHandlerManager
+[15:56:30:821][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.ArrayList impl:com.opensymphony.xwork2.ognl.accessor.XWorkListPropertyAccessor
+[15:56:30:821][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.HashSet impl:com.opensymphony.xwork2.ognl.accessor.XWorkCollectionPropertyAccessor
+[15:56:30:821][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.HashMap impl:com.opensymphony.xwork2.ognl.accessor.XWorkMapPropertyAccessor
+[15:56:30:822][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loading action configurations from: struts-plugin.xml
+[15:56:30:823][DEBUG](com.opensymphony.xwork2.util.FileManager:57) - Creating revision for URL: jar:file:/D:/Project/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/kmp_kola/WEB-INF/lib/struts2-convention-plugin-2.1.8.1.jar!/struts-plugin.xml
+[15:56:30:831][DEBUG](com.opensymphony.xwork2.util.FileManager:57) - Creating revision for URL: jar:file:/D:/Project/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/kmp_kola/WEB-INF/lib/struts2-spring-plugin-2.1.8.1.jar!/struts-plugin.xml
+[15:56:30:838][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded action configuration from: struts-plugin.xml
+[15:56:30:839][INFO](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:31) - Parsing configuration file [struts-plugin.xml]
+[15:56:30:842][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.UnknownHandler name:convention impl:org.apache.struts2.convention.ConventionUnknownHandler
+[15:56:30:850][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.convention.ActionConfigBuilder name:convention impl:org.apache.struts2.convention.PackageBasedActionConfigBuilder
+[15:56:30:852][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.convention.ActionNameBuilder name:convention impl:org.apache.struts2.convention.SEOActionNameBuilder
+[15:56:30:854][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.convention.ResultMapBuilder name:convention impl:org.apache.struts2.convention.DefaultResultMapBuilder
+[15:56:30:856][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.convention.InterceptorMapBuilder name:convention impl:org.apache.struts2.convention.DefaultInterceptorMapBuilder
+[15:56:30:858][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.convention.ConventionsService name:convention impl:org.apache.struts2.convention.ConventionsServiceImpl
+[15:56:30:860][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.config.PackageProvider name:convention.packageProvider impl:org.apache.struts2.convention.ClasspathPackageProvider
+[15:56:30:862][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.config.PackageProvider name:convention.containerProvider impl:org.apache.struts2.convention.ClasspathConfigurationProvider
+[15:56:30:865][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.ObjectFactory name:spring impl:org.apache.struts2.spring.StrutsSpringObjectFactory
+[15:56:30:865][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loading action configurations from: struts.xml
+[15:56:30:866][DEBUG](com.opensymphony.xwork2.util.FileManager:57) - Creating revision for URL: file:/D:/Project/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/kmp_kola/WEB-INF/classes/struts.xml
+[15:56:30:876][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded action configuration from: struts.xml
+[15:56:30:877][INFO](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:31) - Parsing configuration file [struts.xml]
+[15:56:30:890][INFO](com.opensymphony.xwork2.config.impl.DefaultConfiguration:31) - Overriding property struts.i18n.reload - old value: false new value: true
+[15:56:30:897][DEBUG](com.opensymphony.xwork2.util.LocalizedTextUtil:57) - Added default resource bundle 'org/apache/struts2/struts-messages' to default resource bundles = [org/apache/struts2/struts-messages, com/opensymphony/xwork2/xwork-messages]
+[15:56:30:897][DEBUG](com.opensymphony.xwork2.util.LocalizedTextUtil:57) - Added default resource bundle 'i18n' to default resource bundles = [i18n, org/apache/struts2/struts-messages, com/opensymphony/xwork2/xwork-messages]
+[15:56:30:957][INFO](com.opensymphony.xwork2.spring.SpringObjectFactory:31) - Setting autowire strategy to name
+[15:56:30:965][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded [BUILDER] {PackageConfig Name:struts-default namespace: parents:[]}
+[15:56:31:079][DEBUG](com.opensymphony.xwork2.validator.DefaultValidatorFactory:57) - Loading validator definitions.
+[15:56:31:270][DEBUG](com.opensymphony.xwork2.interceptor.I18nInterceptor:57) - new I18nInterceptor()
+[15:56:31:285][DEBUG](com.opensymphony.xwork2.interceptor.I18nInterceptor:57) - new I18nInterceptor()
+[15:56:31:304][DEBUG](com.opensymphony.xwork2.interceptor.I18nInterceptor:57) - new I18nInterceptor()
+[15:56:31:344][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded [BUILDER] {PackageConfig Name:convention-default namespace: parents:[{PackageConfig Name:struts-default namespace: parents:[]}]}
+[15:56:31:345][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded [BUILDER] {PackageConfig Name:spring-default namespace: parents:[]}
+[15:56:31:346][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded [BUILDER] {PackageConfig Name:basePackage namespace: parents:[{PackageConfig Name:struts-default namespace: parents:[]}]}
+[15:56:31:348][DEBUG](com.opensymphony.xwork2.interceptor.I18nInterceptor:57) - new I18nInterceptor()
+[15:56:31:360][DEBUG](com.opensymphony.xwork2.conversion.impl.XWorkConverter:57) - Property: validateAnnotatedMethodOnly
+[15:56:31:360][DEBUG](com.opensymphony.xwork2.conversion.impl.XWorkConverter:57) - Class: org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor
+[15:56:31:368][DEBUG](com.opensymphony.xwork2.conversion.impl.XWorkConverter:57) - converter is null for property validateAnnotatedMethodOnly. Mapping size: 0
+[15:56:31:368][DEBUG](com.opensymphony.xwork2.conversion.impl.XWorkConverter:57) - field-level type converter for property [validateAnnotatedMethodOnly] = none found
+[15:56:31:369][DEBUG](com.opensymphony.xwork2.conversion.impl.XWorkConverter:57) - global-level type converter for property [validateAnnotatedMethodOnly] = none found
+[15:56:31:370][DEBUG](com.opensymphony.xwork2.conversion.impl.XWorkConverter:57) - falling back to default type converter [com.opensymphony.xwork2.conversion.impl.XWorkBasicConverter@4937a882]
+[15:56:31:376][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded errorPage in 'basePackage' package:{ActionConfig errorPage () - action - file:/D:/Project/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/kmp_kola/WEB-INF/classes/struts.xml:87:28}
+[15:56:31:377][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded [BUILDER] {PackageConfig Name:admin namespace:/admin/ parents:[{PackageConfig Name:basePackage namespace: parents:[{PackageConfig Name:struts-default namespace: parents:[]}]}]}
+[15:56:31:649][DEBUG](com.opensymphony.xwork2.config.ConfigurationManager:57) - Checking ConfigurationProviders for reload.
+[15:56:31:654][DEBUG](com.opensymphony.xwork2.config.ConfigurationManager:57) - Checking ConfigurationProviders for reload.
+[15:57:33:952][DEBUG](com.opensymphony.xwork2.config.ConfigurationManager:57) - Checking ConfigurationProviders for reload.
+[15:57:33:965][DEBUG](com.opensymphony.xwork2.conversion.impl.InstantiatingNullHandler:57) - Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@762363b8], property=struts]
+[15:57:33:968][DEBUG](com.opensymphony.xwork2.config.ConfigurationManager:57) - Checking ConfigurationProviders for reload.
+[15:57:33:976][DEBUG](com.opensymphony.xwork2.conversion.impl.InstantiatingNullHandler:57) - Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@762363b8], property=struts]
+[15:57:33:976][DEBUG](com.opensymphony.xwork2.config.ConfigurationManager:57) - Checking ConfigurationProviders for reload.
+[15:57:33:992][DEBUG](com.opensymphony.xwork2.DefaultActionProxy:57) - Creating an DefaultActionProxy for namespace /admin and action name admin
+[15:57:34:472][DEBUG](com.opensymphony.xwork2.util.FileManager:57) - Creating revision for URL: file:/D:/Project/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/kmp_kola/WEB-INF/classes/freemarker.properties
+[15:57:38:076][DEBUG](com.opensymphony.xwork2.config.ConfigurationManager:57) - Checking ConfigurationProviders for reload.
+[15:57:38:079][DEBUG](com.opensymphony.xwork2.conversion.impl.InstantiatingNullHandler:57) - Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@762363b8], property=struts]
+[15:57:38:080][DEBUG](com.opensymphony.xwork2.config.ConfigurationManager:57) - Checking ConfigurationProviders for reload.
+[15:57:38:082][DEBUG](com.opensymphony.xwork2.conversion.impl.InstantiatingNullHandler:57) - Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@762363b8], property=struts]
+[15:57:38:084][DEBUG](com.opensymphony.xwork2.config.ConfigurationManager:57) - Checking ConfigurationProviders for reload.
+[15:57:38:086][DEBUG](com.opensymphony.xwork2.DefaultActionProxy:57) - Creating an DefaultActionProxy for namespace /admin and action name admin
+[15:57:42:252][DEBUG](com.opensymphony.xwork2.config.ConfigurationManager:57) - Checking ConfigurationProviders for reload.
+[15:57:42:254][DEBUG](com.opensymphony.xwork2.conversion.impl.InstantiatingNullHandler:57) - Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@762363b8], property=struts]
+[15:57:42:254][DEBUG](com.opensymphony.xwork2.config.ConfigurationManager:57) - Checking ConfigurationProviders for reload.
+[15:57:42:255][DEBUG](com.opensymphony.xwork2.conversion.impl.InstantiatingNullHandler:57) - Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@762363b8], property=struts]
+[15:57:42:256][DEBUG](com.opensymphony.xwork2.config.ConfigurationManager:57) - Checking ConfigurationProviders for reload.
+[15:57:42:258][DEBUG](com.opensymphony.xwork2.DefaultActionProxy:57) - Creating an DefaultActionProxy for namespace /admin and action name admin
+[15:57:42:316][DEBUG](com.opensymphony.xwork2.interceptor.I18nInterceptor:57) - intercept '/admin/admin' { 
+[15:57:42:317][DEBUG](com.opensymphony.xwork2.interceptor.I18nInterceptor:57) - applied invocation context locale=zh_CN
+[15:57:42:318][DEBUG](com.opensymphony.xwork2.interceptor.I18nInterceptor:57) - before Locale=zh_CN
+[15:57:42:361][DEBUG](com.opensymphony.xwork2.conversion.impl.InstantiatingNullHandler:57) - Entering nullPropertyValue [target=[com.kola.core.web.admin.AdminAction@12249dba, com.opensymphony.xwork2.DefaultTextProvider@762363b8], property=struts]
+[15:57:42:378][DEBUG](com.opensymphony.xwork2.interceptor.StaticParametersInterceptor:57) - Setting static parameters {}
+[15:57:42:379][DEBUG](com.opensymphony.xwork2.interceptor.ParametersInterceptor:57) - Setting params NONE
+[15:57:42:380][DEBUG](com.opensymphony.xwork2.interceptor.ParametersInterceptor:57) - Setting params password => [ sdfsdf ] username => [ sdfsd ] 
+[15:57:42:409][DEBUG](com.opensymphony.xwork2.validator.ValidationInterceptor:57) - Invoking validate() on action com.kola.core.web.admin.AdminAction@12249dba
+[15:57:42:410][DEBUG](com.opensymphony.xwork2.interceptor.PrefixMethodInvocationUtil:57) - cannot find method [validateLogin] in action [com.kola.core.web.admin.AdminAction@12249dba]
+[15:57:42:411][DEBUG](com.opensymphony.xwork2.interceptor.PrefixMethodInvocationUtil:57) - cannot find method [validateDoLogin] in action [com.kola.core.web.admin.AdminAction@12249dba]
+[15:57:42:411][DEBUG](com.opensymphony.xwork2.DefaultActionInvocation:57) - Executing action method = execute
+[15:57:59:207][DEBUG](com.opensymphony.xwork2.interceptor.I18nInterceptor:57) - after Locale=zh_CN
+[15:57:59:207][DEBUG](com.opensymphony.xwork2.interceptor.I18nInterceptor:57) - intercept } 
+[15:58:22:288][DEBUG](com.opensymphony.xwork2.config.ConfigurationManager:57) - Checking ConfigurationProviders for reload.
+[15:58:22:290][DEBUG](com.opensymphony.xwork2.config.ConfigurationManager:57) - Checking ConfigurationProviders for reload.
+[15:58:25:429][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loading action configurations from: struts-default.xml
+[15:58:25:436][DEBUG](com.opensymphony.xwork2.util.FileManager:57) - Creating revision for URL: jar:file:/D:/Project/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/kmp_kola/WEB-INF/lib/struts2-core-2.1.8.1.jar!/struts-default.xml
+[15:58:25:463][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded action configuration from: struts-default.xml
+[15:58:25:468][INFO](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:31) - Parsing configuration file [struts-default.xml]
+[15:58:25:474][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type: name:xwork impl:com.opensymphony.xwork2.ObjectFactory
+[15:58:25:477][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.ObjectFactory name:struts impl:org.apache.struts2.impl.StrutsObjectFactory
+[15:58:25:480][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.ActionProxyFactory name:xwork impl:com.opensymphony.xwork2.DefaultActionProxyFactory
+[15:58:25:480][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.ActionProxyFactory name:struts impl:org.apache.struts2.impl.StrutsActionProxyFactory
+[15:58:25:486][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.conversion.ObjectTypeDeterminer name:tiger impl:com.opensymphony.xwork2.conversion.impl.DefaultObjectTypeDeterminer
+[15:58:25:486][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.conversion.ObjectTypeDeterminer name:notiger impl:com.opensymphony.xwork2.conversion.impl.DefaultObjectTypeDeterminer
+[15:58:25:486][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.conversion.ObjectTypeDeterminer name:struts impl:com.opensymphony.xwork2.conversion.impl.DefaultObjectTypeDeterminer
+[15:58:25:488][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.util.PatternMatcher name:struts impl:com.opensymphony.xwork2.util.WildcardHelper
+[15:58:25:489][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.util.PatternMatcher name:namedVariable impl:com.opensymphony.xwork2.util.NamedVariablePatternMatcher
+[15:58:25:492][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.dispatcher.mapper.ActionMapper name:struts impl:org.apache.struts2.dispatcher.mapper.DefaultActionMapper
+[15:58:25:493][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.dispatcher.mapper.ActionMapper name:composite impl:org.apache.struts2.dispatcher.mapper.CompositeActionMapper
+[15:58:25:494][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.dispatcher.mapper.ActionMapper name:restful impl:org.apache.struts2.dispatcher.mapper.RestfulActionMapper
+[15:58:25:495][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.dispatcher.mapper.ActionMapper name:restful2 impl:org.apache.struts2.dispatcher.mapper.Restful2ActionMapper
+[15:58:25:501][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.dispatcher.multipart.MultiPartRequest name:struts impl:org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest
+[15:58:25:502][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.dispatcher.multipart.MultiPartRequest name:jakarta impl:org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest
+[15:58:25:504][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.views.TagLibrary name:s impl:org.apache.struts2.views.DefaultTagLibrary
+[15:58:25:510][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type: name:struts impl:org.apache.struts2.views.freemarker.FreemarkerManager
+[15:58:25:512][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Unable to load optional class: java.lang.NoClassDefFoundError: org/apache/velocity/tools/view/ToolboxManager
+[15:58:25:513][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type: name:default impl:org.apache.struts2.components.template.TemplateEngineManager
+[15:58:25:518][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.components.template.TemplateEngine name:ftl impl:org.apache.struts2.components.template.FreemarkerTemplateEngine
+[15:58:25:520][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.components.template.TemplateEngine name:vm impl:org.apache.struts2.components.template.VelocityTemplateEngine
+[15:58:25:522][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.components.template.TemplateEngine name:jsp impl:org.apache.struts2.components.template.JspTemplateEngine
+[15:58:25:524][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.conversion.impl.XWorkConverter name:struts impl:com.opensymphony.xwork2.conversion.impl.XWorkConverter
+[15:58:25:525][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.conversion.impl.XWorkConverter name:xwork1 impl:com.opensymphony.xwork2.conversion.impl.XWorkConverter
+[15:58:25:528][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type: name:default impl:com.opensymphony.xwork2.conversion.impl.XWorkBasicConverter
+[15:58:25:530][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.TextProvider name:xwork1 impl:com.opensymphony.xwork2.TextProviderSupport
+[15:58:25:530][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.TextProvider name:struts impl:com.opensymphony.xwork2.TextProviderSupport
+[15:58:25:533][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.components.UrlRenderer name:struts impl:org.apache.struts2.components.ServletUrlRenderer
+[15:58:25:537][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.util.ValueStackFactory name:struts impl:com.opensymphony.xwork2.ognl.OgnlValueStackFactory
+[15:58:25:539][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.util.reflection.ReflectionProvider name:struts impl:com.opensymphony.xwork2.ognl.OgnlReflectionProvider
+[15:58:25:541][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.util.reflection.ReflectionContextFactory name:struts impl:com.opensymphony.xwork2.ognl.OgnlReflectionContextFactory
+[15:58:25:544][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.TextProvider name:system impl:com.opensymphony.xwork2.DefaultTextProvider
+[15:58:25:546][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.conversion.NullHandler name:java.lang.Object impl:com.opensymphony.xwork2.conversion.impl.InstantiatingNullHandler
+[15:58:25:551][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.validator.ActionValidatorManager name:struts impl:com.opensymphony.xwork2.validator.AnnotationActionValidatorManager
+[15:58:25:561][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.validator.ActionValidatorManager name:no-annotations impl:com.opensymphony.xwork2.validator.DefaultActionValidatorManager
+[15:58:25:564][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.validator.ValidatorFactory name:default impl:com.opensymphony.xwork2.validator.DefaultValidatorFactory
+[15:58:25:566][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.validator.ValidatorFileParser name:default impl:com.opensymphony.xwork2.validator.DefaultValidatorFileParser
+[15:58:25:568][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type: name:default impl:com.opensymphony.xwork2.ognl.OgnlUtil
+[15:58:25:573][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:com.opensymphony.xwork2.util.CompoundRoot impl:com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor
+[15:58:25:577][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.lang.Object impl:com.opensymphony.xwork2.ognl.accessor.ObjectAccessor
+[15:58:25:580][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.Iterator impl:com.opensymphony.xwork2.ognl.accessor.XWorkIteratorPropertyAccessor
+[15:58:25:583][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.Enumeration impl:com.opensymphony.xwork2.ognl.accessor.XWorkEnumerationAccessor
+[15:58:25:586][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.List impl:com.opensymphony.xwork2.ognl.accessor.XWorkListPropertyAccessor
+[15:58:25:588][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.Set impl:com.opensymphony.xwork2.ognl.accessor.XWorkCollectionPropertyAccessor
+[15:58:25:591][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.Map impl:com.opensymphony.xwork2.ognl.accessor.XWorkMapPropertyAccessor
+[15:58:25:591][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.Collection impl:com.opensymphony.xwork2.ognl.accessor.XWorkCollectionPropertyAccessor
+[15:58:25:592][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:com.opensymphony.xwork2.ognl.ObjectProxy impl:com.opensymphony.xwork2.ognl.accessor.ObjectProxyPropertyAccessor
+[15:58:25:595][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.MethodAccessor name:java.lang.Object impl:com.opensymphony.xwork2.ognl.accessor.XWorkMethodAccessor
+[15:58:25:595][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.MethodAccessor name:com.opensymphony.xwork2.util.CompoundRoot impl:com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor
+[15:58:25:597][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type: name:default impl:org.apache.struts2.views.jsp.ui.OgnlTool
+[15:58:25:599][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.dispatcher.StaticContentLoader name:struts impl:org.apache.struts2.dispatcher.DefaultStaticContentLoader
+[15:58:25:601][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.UnknownHandlerManager name:struts impl:com.opensymphony.xwork2.DefaultUnknownHandlerManager
+[15:58:25:601][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.ArrayList impl:com.opensymphony.xwork2.ognl.accessor.XWorkListPropertyAccessor
+[15:58:25:601][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.HashSet impl:com.opensymphony.xwork2.ognl.accessor.XWorkCollectionPropertyAccessor
+[15:58:25:601][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.HashMap impl:com.opensymphony.xwork2.ognl.accessor.XWorkMapPropertyAccessor
+[15:58:25:602][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loading action configurations from: struts-plugin.xml
+[15:58:25:602][DEBUG](com.opensymphony.xwork2.util.FileManager:57) - Creating revision for URL: jar:file:/D:/Project/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/kmp_kola/WEB-INF/lib/struts2-convention-plugin-2.1.8.1.jar!/struts-plugin.xml
+[15:58:25:608][DEBUG](com.opensymphony.xwork2.util.FileManager:57) - Creating revision for URL: jar:file:/D:/Project/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/kmp_kola/WEB-INF/lib/struts2-spring-plugin-2.1.8.1.jar!/struts-plugin.xml
+[15:58:25:613][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded action configuration from: struts-plugin.xml
+[15:58:25:614][INFO](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:31) - Parsing configuration file [struts-plugin.xml]
+[15:58:25:616][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.UnknownHandler name:convention impl:org.apache.struts2.convention.ConventionUnknownHandler
+[15:58:25:621][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.convention.ActionConfigBuilder name:convention impl:org.apache.struts2.convention.PackageBasedActionConfigBuilder
+[15:58:25:623][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.convention.ActionNameBuilder name:convention impl:org.apache.struts2.convention.SEOActionNameBuilder
+[15:58:25:625][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.convention.ResultMapBuilder name:convention impl:org.apache.struts2.convention.DefaultResultMapBuilder
+[15:58:25:627][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.convention.InterceptorMapBuilder name:convention impl:org.apache.struts2.convention.DefaultInterceptorMapBuilder
+[15:58:25:630][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.convention.ConventionsService name:convention impl:org.apache.struts2.convention.ConventionsServiceImpl
+[15:58:25:631][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.config.PackageProvider name:convention.packageProvider impl:org.apache.struts2.convention.ClasspathPackageProvider
+[15:58:25:633][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.config.PackageProvider name:convention.containerProvider impl:org.apache.struts2.convention.ClasspathConfigurationProvider
+[15:58:25:636][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.ObjectFactory name:spring impl:org.apache.struts2.spring.StrutsSpringObjectFactory
+[15:58:25:637][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loading action configurations from: struts.xml
+[15:58:25:638][DEBUG](com.opensymphony.xwork2.util.FileManager:57) - Creating revision for URL: file:/D:/Project/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/kmp_kola/WEB-INF/classes/struts.xml
+[15:58:25:648][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded action configuration from: struts.xml
+[15:58:25:649][INFO](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:31) - Parsing configuration file [struts.xml]
+[15:58:25:653][INFO](com.opensymphony.xwork2.config.impl.DefaultConfiguration:31) - Overriding property struts.i18n.reload - old value: false new value: true
+[15:58:25:655][DEBUG](com.opensymphony.xwork2.util.LocalizedTextUtil:57) - Added default resource bundle 'org/apache/struts2/struts-messages' to default resource bundles = [org/apache/struts2/struts-messages, com/opensymphony/xwork2/xwork-messages]
+[15:58:25:656][DEBUG](com.opensymphony.xwork2.util.LocalizedTextUtil:57) - Added default resource bundle 'i18n' to default resource bundles = [i18n, org/apache/struts2/struts-messages, com/opensymphony/xwork2/xwork-messages]
+[15:58:25:711][INFO](com.opensymphony.xwork2.spring.SpringObjectFactory:31) - Setting autowire strategy to name
+[15:58:25:718][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded [BUILDER] {PackageConfig Name:struts-default namespace: parents:[]}
+[15:58:25:856][DEBUG](com.opensymphony.xwork2.validator.DefaultValidatorFactory:57) - Loading validator definitions.
+[15:58:26:048][DEBUG](com.opensymphony.xwork2.interceptor.I18nInterceptor:57) - new I18nInterceptor()
+[15:58:26:063][DEBUG](com.opensymphony.xwork2.interceptor.I18nInterceptor:57) - new I18nInterceptor()
+[15:58:26:079][DEBUG](com.opensymphony.xwork2.interceptor.I18nInterceptor:57) - new I18nInterceptor()
+[15:58:26:126][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded [BUILDER] {PackageConfig Name:convention-default namespace: parents:[{PackageConfig Name:struts-default namespace: parents:[]}]}
+[15:58:26:126][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded [BUILDER] {PackageConfig Name:spring-default namespace: parents:[]}
+[15:58:26:127][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded [BUILDER] {PackageConfig Name:basePackage namespace: parents:[{PackageConfig Name:struts-default namespace: parents:[]}]}
+[15:58:26:129][DEBUG](com.opensymphony.xwork2.interceptor.I18nInterceptor:57) - new I18nInterceptor()
+[15:58:26:135][DEBUG](com.opensymphony.xwork2.conversion.impl.XWorkConverter:57) - Property: validateAnnotatedMethodOnly
+[15:58:26:135][DEBUG](com.opensymphony.xwork2.conversion.impl.XWorkConverter:57) - Class: org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor
+[15:58:26:143][DEBUG](com.opensymphony.xwork2.conversion.impl.XWorkConverter:57) - converter is null for property validateAnnotatedMethodOnly. Mapping size: 0
+[15:58:26:144][DEBUG](com.opensymphony.xwork2.conversion.impl.XWorkConverter:57) - field-level type converter for property [validateAnnotatedMethodOnly] = none found
+[15:58:26:145][DEBUG](com.opensymphony.xwork2.conversion.impl.XWorkConverter:57) - global-level type converter for property [validateAnnotatedMethodOnly] = none found
+[15:58:26:146][DEBUG](com.opensymphony.xwork2.conversion.impl.XWorkConverter:57) - falling back to default type converter [com.opensymphony.xwork2.conversion.impl.XWorkBasicConverter@2e93e49a]
+[15:58:26:152][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded errorPage in 'basePackage' package:{ActionConfig errorPage () - action - file:/D:/Project/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/kmp_kola/WEB-INF/classes/struts.xml:87:28}
+[15:58:26:153][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded [BUILDER] {PackageConfig Name:admin namespace:/admin/ parents:[{PackageConfig Name:basePackage namespace: parents:[{PackageConfig Name:struts-default namespace: parents:[]}]}]}
+[15:58:26:464][DEBUG](com.opensymphony.xwork2.config.ConfigurationManager:57) - Checking ConfigurationProviders for reload.
+[15:58:26:467][DEBUG](com.opensymphony.xwork2.config.ConfigurationManager:57) - Checking ConfigurationProviders for reload.
+[15:58:27:022][DEBUG](com.opensymphony.xwork2.config.ConfigurationManager:57) - Checking ConfigurationProviders for reload.
+[15:58:27:038][DEBUG](com.opensymphony.xwork2.conversion.impl.InstantiatingNullHandler:57) - Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@7126ec74], property=struts]
+[15:58:27:041][DEBUG](com.opensymphony.xwork2.config.ConfigurationManager:57) - Checking ConfigurationProviders for reload.
+[15:58:27:052][DEBUG](com.opensymphony.xwork2.conversion.impl.InstantiatingNullHandler:57) - Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@7126ec74], property=struts]
+[15:58:27:053][DEBUG](com.opensymphony.xwork2.config.ConfigurationManager:57) - Checking ConfigurationProviders for reload.
+[15:58:27:070][DEBUG](com.opensymphony.xwork2.DefaultActionProxy:57) - Creating an DefaultActionProxy for namespace /admin and action name admin
+[15:58:27:352][DEBUG](com.opensymphony.xwork2.interceptor.I18nInterceptor:57) - intercept '/admin/admin' { 
+[15:58:27:352][DEBUG](com.opensymphony.xwork2.interceptor.I18nInterceptor:57) - applied invocation context locale=zh_CN
+[15:58:27:353][DEBUG](com.opensymphony.xwork2.interceptor.I18nInterceptor:57) - before Locale=zh_CN
+[15:58:27:385][DEBUG](com.opensymphony.xwork2.conversion.impl.InstantiatingNullHandler:57) - Entering nullPropertyValue [target=[com.kola.core.web.admin.AdminAction@96efcac, com.opensymphony.xwork2.DefaultTextProvider@7126ec74], property=struts]
+[15:58:27:411][DEBUG](com.opensymphony.xwork2.interceptor.StaticParametersInterceptor:57) - Setting static parameters {}
+[15:58:27:414][DEBUG](com.opensymphony.xwork2.interceptor.ParametersInterceptor:57) - Setting params NONE
+[15:58:27:414][DEBUG](com.opensymphony.xwork2.interceptor.ParametersInterceptor:57) - Setting params password => [ sdfdszf ] username => [ sdffbhs ] 
+[15:58:27:448][DEBUG](com.opensymphony.xwork2.validator.ValidationInterceptor:57) - Invoking validate() on action com.kola.core.web.admin.AdminAction@96efcac
+[15:58:27:450][DEBUG](com.opensymphony.xwork2.interceptor.PrefixMethodInvocationUtil:57) - cannot find method [validateLogin] in action [com.kola.core.web.admin.AdminAction@96efcac]
+[15:58:27:451][DEBUG](com.opensymphony.xwork2.interceptor.PrefixMethodInvocationUtil:57) - cannot find method [validateDoLogin] in action [com.kola.core.web.admin.AdminAction@96efcac]
+[15:58:27:452][DEBUG](com.opensymphony.xwork2.DefaultActionInvocation:57) - Executing action method = execute
+[15:58:44:186][DEBUG](com.opensymphony.xwork2.util.FileManager:57) - Creating revision for URL: file:/D:/Project/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/kmp_kola/WEB-INF/classes/freemarker.properties
+[15:58:44:365][DEBUG](com.opensymphony.xwork2.conversion.impl.InstantiatingNullHandler:57) - Entering nullPropertyValue [target=[com.opensymphony.xwork2.interceptor.ExceptionHolder@45655e35, com.kola.core.web.admin.AdminAction@96efcac, com.opensymphony.xwork2.DefaultTextProvider@7126ec74], property=redirectionUrl]
+[15:58:44:366][DEBUG](com.opensymphony.xwork2.conversion.impl.InstantiatingNullHandler:57) - Entering nullPropertyValue [target=[com.opensymphony.xwork2.interceptor.ExceptionHolder@45655e35, com.kola.core.web.admin.AdminAction@96efcac, com.opensymphony.xwork2.DefaultTextProvider@7126ec74], property=redirectionUrl]
+[15:59:36:796][DEBUG](com.opensymphony.xwork2.config.ConfigurationManager:57) - Checking ConfigurationProviders for reload.
+[15:59:36:799][DEBUG](com.opensymphony.xwork2.config.ConfigurationManager:57) - Checking ConfigurationProviders for reload.
+[15:59:39:635][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loading action configurations from: struts-default.xml
+[15:59:39:639][DEBUG](com.opensymphony.xwork2.util.FileManager:57) - Creating revision for URL: jar:file:/D:/Project/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/kmp_kola/WEB-INF/lib/struts2-core-2.1.8.1.jar!/struts-default.xml
+[15:59:39:682][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded action configuration from: struts-default.xml
+[15:59:39:691][INFO](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:31) - Parsing configuration file [struts-default.xml]
+[15:59:39:700][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type: name:xwork impl:com.opensymphony.xwork2.ObjectFactory
+[15:59:39:706][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.ObjectFactory name:struts impl:org.apache.struts2.impl.StrutsObjectFactory
+[15:59:39:709][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.ActionProxyFactory name:xwork impl:com.opensymphony.xwork2.DefaultActionProxyFactory
+[15:59:39:711][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.ActionProxyFactory name:struts impl:org.apache.struts2.impl.StrutsActionProxyFactory
+[15:59:39:717][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.conversion.ObjectTypeDeterminer name:tiger impl:com.opensymphony.xwork2.conversion.impl.DefaultObjectTypeDeterminer
+[15:59:39:718][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.conversion.ObjectTypeDeterminer name:notiger impl:com.opensymphony.xwork2.conversion.impl.DefaultObjectTypeDeterminer
+[15:59:39:718][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.conversion.ObjectTypeDeterminer name:struts impl:com.opensymphony.xwork2.conversion.impl.DefaultObjectTypeDeterminer
+[15:59:39:721][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.util.PatternMatcher name:struts impl:com.opensymphony.xwork2.util.WildcardHelper
+[15:59:39:723][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.util.PatternMatcher name:namedVariable impl:com.opensymphony.xwork2.util.NamedVariablePatternMatcher
+[15:59:39:728][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.dispatcher.mapper.ActionMapper name:struts impl:org.apache.struts2.dispatcher.mapper.DefaultActionMapper
+[15:59:39:730][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.dispatcher.mapper.ActionMapper name:composite impl:org.apache.struts2.dispatcher.mapper.CompositeActionMapper
+[15:59:39:732][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.dispatcher.mapper.ActionMapper name:restful impl:org.apache.struts2.dispatcher.mapper.RestfulActionMapper
+[15:59:39:734][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.dispatcher.mapper.ActionMapper name:restful2 impl:org.apache.struts2.dispatcher.mapper.Restful2ActionMapper
+[15:59:39:742][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.dispatcher.multipart.MultiPartRequest name:struts impl:org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest
+[15:59:39:743][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.dispatcher.multipart.MultiPartRequest name:jakarta impl:org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest
+[15:59:39:746][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.views.TagLibrary name:s impl:org.apache.struts2.views.DefaultTagLibrary
+[15:59:39:758][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type: name:struts impl:org.apache.struts2.views.freemarker.FreemarkerManager
+[15:59:39:762][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Unable to load optional class: java.lang.NoClassDefFoundError: org/apache/velocity/tools/view/ToolboxManager
+[15:59:39:763][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type: name:default impl:org.apache.struts2.components.template.TemplateEngineManager
+[15:59:39:770][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.components.template.TemplateEngine name:ftl impl:org.apache.struts2.components.template.FreemarkerTemplateEngine
+[15:59:39:772][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.components.template.TemplateEngine name:vm impl:org.apache.struts2.components.template.VelocityTemplateEngine
+[15:59:39:774][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.components.template.TemplateEngine name:jsp impl:org.apache.struts2.components.template.JspTemplateEngine
+[15:59:39:776][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.conversion.impl.XWorkConverter name:struts impl:com.opensymphony.xwork2.conversion.impl.XWorkConverter
+[15:59:39:777][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.conversion.impl.XWorkConverter name:xwork1 impl:com.opensymphony.xwork2.conversion.impl.XWorkConverter
+[15:59:39:780][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type: name:default impl:com.opensymphony.xwork2.conversion.impl.XWorkBasicConverter
+[15:59:39:784][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.TextProvider name:xwork1 impl:com.opensymphony.xwork2.TextProviderSupport
+[15:59:39:785][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.TextProvider name:struts impl:com.opensymphony.xwork2.TextProviderSupport
+[15:59:39:787][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.components.UrlRenderer name:struts impl:org.apache.struts2.components.ServletUrlRenderer
+[15:59:39:792][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.util.ValueStackFactory name:struts impl:com.opensymphony.xwork2.ognl.OgnlValueStackFactory
+[15:59:39:795][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.util.reflection.ReflectionProvider name:struts impl:com.opensymphony.xwork2.ognl.OgnlReflectionProvider
+[15:59:39:797][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.util.reflection.ReflectionContextFactory name:struts impl:com.opensymphony.xwork2.ognl.OgnlReflectionContextFactory
+[15:59:39:800][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.TextProvider name:system impl:com.opensymphony.xwork2.DefaultTextProvider
+[15:59:39:802][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.conversion.NullHandler name:java.lang.Object impl:com.opensymphony.xwork2.conversion.impl.InstantiatingNullHandler
+[15:59:39:808][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.validator.ActionValidatorManager name:struts impl:com.opensymphony.xwork2.validator.AnnotationActionValidatorManager
+[15:59:39:811][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.validator.ActionValidatorManager name:no-annotations impl:com.opensymphony.xwork2.validator.DefaultActionValidatorManager
+[15:59:39:815][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.validator.ValidatorFactory name:default impl:com.opensymphony.xwork2.validator.DefaultValidatorFactory
+[15:59:39:817][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.validator.ValidatorFileParser name:default impl:com.opensymphony.xwork2.validator.DefaultValidatorFileParser
+[15:59:39:819][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type: name:default impl:com.opensymphony.xwork2.ognl.OgnlUtil
+[15:59:39:822][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:com.opensymphony.xwork2.util.CompoundRoot impl:com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor
+[15:59:39:826][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.lang.Object impl:com.opensymphony.xwork2.ognl.accessor.ObjectAccessor
+[15:59:39:828][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.Iterator impl:com.opensymphony.xwork2.ognl.accessor.XWorkIteratorPropertyAccessor
+[15:59:39:830][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.Enumeration impl:com.opensymphony.xwork2.ognl.accessor.XWorkEnumerationAccessor
+[15:59:39:833][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.List impl:com.opensymphony.xwork2.ognl.accessor.XWorkListPropertyAccessor
+[15:59:39:835][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.Set impl:com.opensymphony.xwork2.ognl.accessor.XWorkCollectionPropertyAccessor
+[15:59:39:838][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.Map impl:com.opensymphony.xwork2.ognl.accessor.XWorkMapPropertyAccessor
+[15:59:39:839][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.Collection impl:com.opensymphony.xwork2.ognl.accessor.XWorkCollectionPropertyAccessor
+[15:59:39:839][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:com.opensymphony.xwork2.ognl.ObjectProxy impl:com.opensymphony.xwork2.ognl.accessor.ObjectProxyPropertyAccessor
+[15:59:39:841][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.MethodAccessor name:java.lang.Object impl:com.opensymphony.xwork2.ognl.accessor.XWorkMethodAccessor
+[15:59:39:841][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.MethodAccessor name:com.opensymphony.xwork2.util.CompoundRoot impl:com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor
+[15:59:39:842][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type: name:default impl:org.apache.struts2.views.jsp.ui.OgnlTool
+[15:59:39:844][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.dispatcher.StaticContentLoader name:struts impl:org.apache.struts2.dispatcher.DefaultStaticContentLoader
+[15:59:39:846][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.UnknownHandlerManager name:struts impl:com.opensymphony.xwork2.DefaultUnknownHandlerManager
+[15:59:39:846][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.ArrayList impl:com.opensymphony.xwork2.ognl.accessor.XWorkListPropertyAccessor
+[15:59:39:846][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.HashSet impl:com.opensymphony.xwork2.ognl.accessor.XWorkCollectionPropertyAccessor
+[15:59:39:847][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:ognl.PropertyAccessor name:java.util.HashMap impl:com.opensymphony.xwork2.ognl.accessor.XWorkMapPropertyAccessor
+[15:59:39:847][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loading action configurations from: struts-plugin.xml
+[15:59:39:848][DEBUG](com.opensymphony.xwork2.util.FileManager:57) - Creating revision for URL: jar:file:/D:/Project/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/kmp_kola/WEB-INF/lib/struts2-convention-plugin-2.1.8.1.jar!/struts-plugin.xml
+[15:59:39:856][DEBUG](com.opensymphony.xwork2.util.FileManager:57) - Creating revision for URL: jar:file:/D:/Project/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/kmp_kola/WEB-INF/lib/struts2-spring-plugin-2.1.8.1.jar!/struts-plugin.xml
+[15:59:39:861][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded action configuration from: struts-plugin.xml
+[15:59:39:862][INFO](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:31) - Parsing configuration file [struts-plugin.xml]
+[15:59:39:865][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.UnknownHandler name:convention impl:org.apache.struts2.convention.ConventionUnknownHandler
+[15:59:39:870][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.convention.ActionConfigBuilder name:convention impl:org.apache.struts2.convention.PackageBasedActionConfigBuilder
+[15:59:39:872][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.convention.ActionNameBuilder name:convention impl:org.apache.struts2.convention.SEOActionNameBuilder
+[15:59:39:874][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.convention.ResultMapBuilder name:convention impl:org.apache.struts2.convention.DefaultResultMapBuilder
+[15:59:39:875][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.convention.InterceptorMapBuilder name:convention impl:org.apache.struts2.convention.DefaultInterceptorMapBuilder
+[15:59:39:877][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:org.apache.struts2.convention.ConventionsService name:convention impl:org.apache.struts2.convention.ConventionsServiceImpl
+[15:59:39:878][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.config.PackageProvider name:convention.packageProvider impl:org.apache.struts2.convention.ClasspathPackageProvider
+[15:59:39:879][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.config.PackageProvider name:convention.containerProvider impl:org.apache.struts2.convention.ClasspathConfigurationProvider
+[15:59:39:881][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded type:com.opensymphony.xwork2.ObjectFactory name:spring impl:org.apache.struts2.spring.StrutsSpringObjectFactory
+[15:59:39:881][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loading action configurations from: struts.xml
+[15:59:39:882][DEBUG](com.opensymphony.xwork2.util.FileManager:57) - Creating revision for URL: file:/D:/Project/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/kmp_kola/WEB-INF/classes/struts.xml
+[15:59:39:889][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded action configuration from: struts.xml
+[15:59:39:889][INFO](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:31) - Parsing configuration file [struts.xml]
+[15:59:39:895][INFO](com.opensymphony.xwork2.config.impl.DefaultConfiguration:31) - Overriding property struts.i18n.reload - old value: false new value: true
+[15:59:39:897][DEBUG](com.opensymphony.xwork2.util.LocalizedTextUtil:57) - Added default resource bundle 'org/apache/struts2/struts-messages' to default resource bundles = [org/apache/struts2/struts-messages, com/opensymphony/xwork2/xwork-messages]
+[15:59:39:897][DEBUG](com.opensymphony.xwork2.util.LocalizedTextUtil:57) - Added default resource bundle 'i18n' to default resource bundles = [i18n, org/apache/struts2/struts-messages, com/opensymphony/xwork2/xwork-messages]
+[15:59:39:958][INFO](com.opensymphony.xwork2.spring.SpringObjectFactory:31) - Setting autowire strategy to name
+[15:59:39:966][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded [BUILDER] {PackageConfig Name:struts-default namespace: parents:[]}
+[15:59:40:073][DEBUG](com.opensymphony.xwork2.validator.DefaultValidatorFactory:57) - Loading validator definitions.
+[15:59:40:310][DEBUG](com.opensymphony.xwork2.interceptor.I18nInterceptor:57) - new I18nInterceptor()
+[15:59:40:322][DEBUG](com.opensymphony.xwork2.interceptor.I18nInterceptor:57) - new I18nInterceptor()
+[15:59:40:334][DEBUG](com.opensymphony.xwork2.interceptor.I18nInterceptor:57) - new I18nInterceptor()
+[15:59:40:368][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded [BUILDER] {PackageConfig Name:convention-default namespace: parents:[{PackageConfig Name:struts-default namespace: parents:[]}]}
+[15:59:40:368][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded [BUILDER] {PackageConfig Name:spring-default namespace: parents:[]}
+[15:59:40:369][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded [BUILDER] {PackageConfig Name:basePackage namespace: parents:[{PackageConfig Name:struts-default namespace: parents:[]}]}
+[15:59:40:370][DEBUG](com.opensymphony.xwork2.interceptor.I18nInterceptor:57) - new I18nInterceptor()
+[15:59:40:373][DEBUG](com.opensymphony.xwork2.conversion.impl.XWorkConverter:57) - Property: validateAnnotatedMethodOnly
+[15:59:40:374][DEBUG](com.opensymphony.xwork2.conversion.impl.XWorkConverter:57) - Class: org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor
+[15:59:40:382][DEBUG](com.opensymphony.xwork2.conversion.impl.XWorkConverter:57) - converter is null for property validateAnnotatedMethodOnly. Mapping size: 0
+[15:59:40:383][DEBUG](com.opensymphony.xwork2.conversion.impl.XWorkConverter:57) - field-level type converter for property [validateAnnotatedMethodOnly] = none found
+[15:59:40:385][DEBUG](com.opensymphony.xwork2.conversion.impl.XWorkConverter:57) - global-level type converter for property [validateAnnotatedMethodOnly] = none found
+[15:59:40:385][DEBUG](com.opensymphony.xwork2.conversion.impl.XWorkConverter:57) - falling back to default type converter [com.opensymphony.xwork2.conversion.impl.XWorkBasicConverter@276e32be]
+[15:59:40:393][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded errorPage in 'basePackage' package:{ActionConfig errorPage () - action - file:/D:/Project/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/kmp_kola/WEB-INF/classes/struts.xml:87:28}
+[15:59:40:394][DEBUG](com.opensymphony.xwork2.config.providers.XmlConfigurationProvider:57) - Loaded [BUILDER] {PackageConfig Name:admin namespace:/admin/ parents:[{PackageConfig Name:basePackage namespace: parents:[{PackageConfig Name:struts-default namespace: parents:[]}]}]}
+[15:59:40:634][DEBUG](com.opensymphony.xwork2.config.ConfigurationManager:57) - Checking ConfigurationProviders for reload.
+[15:59:40:637][DEBUG](com.opensymphony.xwork2.config.ConfigurationManager:57) - Checking ConfigurationProviders for reload.

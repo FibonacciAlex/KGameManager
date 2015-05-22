@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<reports>
+	<report>
+		<name>index_zxcz</name><!-- 获取最新充值以及充值排行的值-->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+					        <#assign MainPage = statics["reportdao.MainPageUtil"]>
+					        ${MainPage.getZxcz(params)}
+				     ]]>
+				</data>
+				
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+	<report>
+		<name>index_zxrs</name><!-- 获取在线人数 -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+							<chart palette='2' labelDisplay='WRAP' formatNumberScale='0' bgColor="FFFFFF" subcaption='<#if month??>${month}</#if>' caption="玩家实时在线图" showValues='1' showLabels='1' decimals='0' useRoundEdges='0' legendBorderAlpha='0' canvasBorderThickness='1' showBorder='0' lineColor="FCB541">
+								 <#assign MainPage = statics["reportdao.MainPageUtil"]>
+					             ${MainPage.getZxrs(params)}
+								<styles>
+							     <definition>
+							      <style name='captionFont' type='font' size='14' color='000000' bold='1' />
+							        <style name='msubCaptionFont' type='font' size='12' color='000000' bold='1' />
+							        <style name='myDataLabes' type='font' size='12' color='000000' />
+							     </definition>
+							     <application>
+							        <apply toObject="caption" styles="captionFont" />
+							        <apply toObject="TOOLTIP" styles="msubCaptionFont" />
+							        <apply toObject="YAXISNAME" styles="myDataLabes" />
+							        <apply toObject="Legend" styles="myDataLabes" />
+							        <apply toObject='DataLabels' styles='myDataLabes' />
+							     </application>
+							   </styles>
+							</chart> 
+				     ]]>
+				</data>
+				
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+	
+	<report>
+		<name>index_ysrt</name><!-- 获取月收入 -->
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+							<chart palette='2' labelDisplay='WRAP' formatNumberScale='0' bgColor="FFFFFF" subcaption='<#if month??>${month}</#if>' caption="月收入趋势" showValues='1' showLabels='1' decimals='0' useRoundEdges='0' legendBorderAlpha='0' canvasBorderThickness='1' numberPrefix="$" showBorder='0' lineColor="FCB541">
+								 <#assign MainPage = statics["reportdao.MainPageUtil"]>
+					             ${MainPage.getYsrt(params)}
+								<styles>
+							     <definition>
+							      <style name='captionFont' type='font' size='14' color='000000' bold='1' />
+							        <style name='msubCaptionFont' type='font' size='12' color='000000' bold='1' />
+							        <style name='myDataLabes' type='font' size='12' color='000000' />
+							     </definition>
+							     <application>
+							        <apply toObject="caption" styles="captionFont" />
+							        <apply toObject="TOOLTIP" styles="msubCaptionFont" />
+							        <apply toObject="YAXISNAME" styles="myDataLabes" />
+							        <apply toObject="Legend" styles="myDataLabes" />
+							        <apply toObject='DataLabels' styles='myDataLabes' />
+							     </application>
+							   </styles>
+							</chart> 
+				     ]]>
+				</data>
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+</reports>
+ 

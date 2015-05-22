@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="profiler.settings.instrument.empty.methods">true</entry>
+<entry key="ProfilerCPUSettings_profile_runnables">true</entry>
+<entry key="ProfilerCPUSettings_filter_type">2</entry>
+<entry key="ProfilerMemorySettings_track_every">10</entry>
+<entry key="ProfilerMemorySettings_mode">4</entry>
+<entry key="ProfilerCPUSettings_root_classes">com.kola.core.data.**
+com.kola.core.service.**
+com.kola.core.util.**
+com.kola.core.web.admin.**
+com.kola.core.web.directive.**
+com.kola.core.web.freemarker.**
+com.kola.core.web.struts2.**
+com.sunrise.report.**
+data.querycondition.**
+data.reportdatas.**
+data.userdata.**
+json.**
+reportdao.**
+</entry>
+<entry key="ProfilerCPUSettings_filter_value">com.kola.core.data.*,
+com.kola.core.service.*,
+com.kola.core.util.*,
+com.kola.core.web.admin.*,
+com.kola.core.web.directive.*,
+com.kola.core.web.freemarker.*,
+com.kola.core.web.struts2.*,
+com.sunrise.report.*,
+data.querycondition.*,
+data.reportdatas.*,
+data.userdata.*,
+json.*,
+reportdao.*</entry>
+<entry key="profiler.settings.istrument.getter.setter.methods">true</entry>
+<entry key="myeclipse.profiling.mode">0</entry>
+<entry key="ProfilerMemorySettings_stacktraces">-1</entry>
+</properties>

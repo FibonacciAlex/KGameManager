@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<reports>
+	<report>
+		<name>test</name>
+		<querys>
+			<query>
+				<name>query</name>
+				<type>output</type>
+				<data>
+					<![CDATA[
+							<chart palette='2' labelDisplay='WRAP' formatNumberScale='0' bgColor="FFFFFF" subcaption='<#if month??>${month}</#if>' caption="月收入趋势" showValues='1' showLabels='0' decimals='0' useRoundEdges='0' legendBorderAlpha='0' canvasBorderThickness='1' numberPrefix="$" showBorder='0' lineColor="FCB541">
+								<set label='Jan' value='17400' />
+								<set label='Feb' value='19800' />
+								<set label='Mar' value='21800' />
+								<set label='Apr' value='23800' />
+								<set label='May' value='29600' />
+								<set label='Jun' value='27600' />
+								<set label='Jul' value='31800' />
+								<set label='Aug' value='39700' />
+								<set label='Sep' value='37800' />
+								<set label='Oct' value='21900' />
+								<set label='Nov' value='32900' />
+								<set label='Dec' value='39800' />
+								<set label='Jan' value='17400' />
+								<set label='Feb' value='19800' />
+								<set label='Mar' value='21800' />
+								<set label='Apr' value='23800' />
+								<set label='May' value='29600' />
+								<set label='Jun' value='27600' />
+								<set label='Jul' value='31800' />
+								<set label='Aug' value='39700' />
+								<set label='Sep' value='37800' />
+								<set label='Oct' value='21900' />
+								<set label='Nov' value='32900' />
+								<set label='Dec' value='39800' />
+								<set label='Jan' value='17400' />
+								<set label='Feb' value='19800' />
+								<set label='Mar' value='21800' />
+								<set label='Apr' value='23800' />
+								<set label='May' value='29600' />
+								<set label='Jun' value='27600' />
+								<set label='Jul' value='31800' />
+								<styles>
+							     <definition>
+							      <style name='captionFont' type='font' size='14' color='000000' bold='1' />
+							        <style name='msubCaptionFont' type='font' size='12' color='000000' bold='1' />
+							        <style name='myDataLabes' type='font' size='12' color='000000' />
+							     </definition>
+							     <application>
+							        <apply toObject="caption" styles="captionFont" />
+							        <apply toObject="TOOLTIP" styles="msubCaptionFont" />
+							        <apply toObject="YAXISNAME" styles="myDataLabes" />
+							        <apply toObject="Legend" styles="myDataLabes" />
+							        <apply toObject='DataLabels' styles='myDataLabes' />
+							     </application>
+							   </styles>
+							</chart> 
+				     ]]>
+				</data>
+				
+			</query>
+		</querys>
+		<resultType>output</resultType>
+	</report>
+</reports>
+ 
